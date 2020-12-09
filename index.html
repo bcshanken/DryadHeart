@@ -17,34 +17,112 @@
     crossorigin="anonymous"
   />
     <link rel="stylesheet" href="Assets/style/style.css" />
+    <link rel="stylesheet" href="Assets/style/home.css" />
   </head>
   <body>
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Dryad's Heart</a>
+        <a class="navbar-brand" href="/index.html">Dryad's Heart</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Cartography <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/Map.html">Cartography <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Lore</a>
+              <a class="nav-link" href="/lore.html">Lore</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Heros</a>
+              <a class="nav-link" href="/heros.html">Heros</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">NPC's</a>
+                <a class="nav-link" href="/npc.html">NPC's</a>
               </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
           </ul>
         </div>
       </nav>
+      <!-- Jumbo tron -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Welcome to the Dryad's Heart</h1>
+          <p class="lead">We will be watching as our group of Heros explore the continent, "D'jorn". You can read about their most recent adventures, view the  maps, meet the npc's they encounter, learn about the history of D'jorn and even the heros themselves.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <!-- Map Card -->
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="Assets/imgs/mapIcon.PNG" class="card-img-top" alt="map icon">
+              <div class="card-body">
+                <h5 class="card-title">Maps</h5>
+                <p class="card-text">D'jorn has many cities and terretories for you to explore. Have a glance at the maps to find out for yourself.</p>
+                <a href="/Map.html" class="btn btn-dark">Cartography</a>
+              </div>
+            </div>
+          </div>
+          <!-- Heros Card -->
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="Assets/imgs/party.jpg" class="card-img-top" alt="party icon">
+              <div class="card-body">
+                <h5 class="card-title">Hero's</h5>
+                <p class="card-text">Who are these hero's who are out there restoring balance to nature? Find out here!</p>
+                <a href="/heros.html" class="btn btn-dark">Meet the Team</a>
+              </div>
+            </div>
+          </div>
+          <!-- Lore Card -->
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="secondRow">
+          <!-- NPC's -->
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <!-- Recent adventures -->
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <!-- About -->
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
 
 
       <script
